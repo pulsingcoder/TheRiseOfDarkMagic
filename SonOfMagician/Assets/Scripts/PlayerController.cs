@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             anim.SetFloat("Horizontal", -1);
+            rb.velocity = new Vector3(0, 0, 0);
         }
     }
 
